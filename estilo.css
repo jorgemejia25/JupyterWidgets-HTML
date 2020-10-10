@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: #5729fb;
+  background-image: linear-gradient(
+    225deg,
+    #5729fb 0%,
+    #364285 50%,
+    #0c1010 100%
+  );
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body:before {
+  content: "";
+  width: 100%;
+  min-height: 100vh;
+}
+
+#enter {
+  background: rgb(95, 99, 99);
+  background: linear-gradient(
+    149deg,
+    rgba(95, 99, 99, 0.8914916308320203) 0%,
+    rgba(62, 97, 97, 1) 27%,
+    rgba(0, 0, 0, 1) 100%
+  );
+
+  height: 340px;
+  width: 340px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: auto;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 200%;
+  border-style: solid;
+}
+.topnav {
+  background: rgb(22, 18, 18);
+  background: linear-gradient(
+    149deg,
+    rgba(22, 18, 18, 1) 60%,
+    rgba(55, 55, 55, 1) 97%
+  );
+  overflow: hidden;
+  font: 1.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-style: solid;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #5729fb;
+  color: white;
+}
+
+footer {
+  margin-top: 30px;
+  border: solid;
+  border-color: #0c1010;
+  height: 300px;
+  color: white;
+  background: rgb(22,18,18);
+  background: linear-gradient(0deg, rgba(22,18,18,1) 4%, rgba(33,16,52,1) 97%);
+  font-size: x-small;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
